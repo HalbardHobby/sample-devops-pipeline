@@ -14,7 +14,7 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "us-east-2"
+  region  = var.region
 }
 
 provider "kubernetes" {
